@@ -10,6 +10,7 @@ request(url, (error, response, body) => {
   const { statusCode } = response;
   if (statusCode && statusCode !== 200){
     console.log(`Status code: ${statusCode}`)
+    return;
   }
   // console.log('status code', statusCode);
   // console.log('body', body);
