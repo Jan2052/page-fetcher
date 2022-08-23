@@ -21,4 +21,3 @@ request(url, (error, response, body) => {
     console.log(`Downloaded and saved ${body.length} bytes to ./index.html`);
   });
 });
-
